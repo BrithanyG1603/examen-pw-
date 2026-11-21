@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingeniería en Computación - UNHSJM</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 2. MENÚ PRINCIPAL CON LOGO UNHSJM -->
+    <header class="navbar">
+      <div class="brand-container">
+        <div class="logo-box">
+          <img src="Logo_UNHSJM.png" alt="Logo UNHSJM" />
+        </div>
+        <div class="brand-text">
+          <h2>Ingeniería en Computación</h2>
+          <span>DCByT - UNHSJM</span>
+        </div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#descripcion">Descripción</a></li>
+          <li><a href="#organigrama">Organigrama</a></li>
+          <li><a href="#modalidades">Modalidades</a></li>
+          <li><a href="#perfiles">Perfiles</a></li>
+          <li><a href="#areas">Áreas</a></li>
+          <li><a href="#plan">Plan de Estudio</a></li>
+          <li><a href="#resenas">Reseñas</a></li>
+          <li><a href="#contacto">Comentarios</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 1. CARRUSEL INFORMATIVO CON LOGO INTEGRADO -->
+    <section id="inicio" class="carousel">
+      <div class="carousel-watermark">
+        <img src="Logo_UNHSJM.png" alt="Marca de agua UNHSJM" />
+      </div>
+      <div class="carousel-slide active">
+        <div class="carousel-content">
+          <span class="badge-univ"
+            >Universidad Nacional Héroes de San José de las Mulas</span
+          >
+          <h1>Ingeniería en Computación</h1>
+          <p>
+            Dirección de Ciencias Básicas y Tecnología (DCByT) — Formando
+            líderes en sistemas de información, software e infraestructura
+            tecnológica.
+          </p>
+          <a href="#plan" class="btn">Ver Plan de Estudio Oficial</a>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <div class="carousel-content">
+          <span class="badge-univ"
+            >Duración: 5 Años | Turnos Matutino y Dominical</span
+          >
+          <h1>Innovación, Datos y Ciberseguridad</h1>
+          <p>
+            Domina el análisis de sistemas, la inteligencia artificial, el Big
+            Data y la protección de infraestructuras digitales.
+          </p>
+          <a href="#areas" class="btn">Explorar Áreas de Estudio</a>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <div class="carousel-content">
+          <span class="badge-univ">Formación Práctica e Integral</span>
+          <h1>Laboratorios DCByT</h1>
+          <p>
+            Prácticas de familiarización y profesionales desde el tercer año de
+            la carrera con acompañamiento docente especializado.
+          </p>
+          <a href="#modalidades" class="btn">Conocer Modalidades</a>
+        </div>
+      </div>
+      <button class="carousel-btn prev" onclick="cambiarSlide(-1)">
+        &#10094;
+      </button>
+      <button class="carousel-btn next" onclick="cambiarSlide(1)">
+        &#10095;
+      </button>
+    </section>
+
+    <main class="container">
+      <!-- 4. DESCRIPCIÓN DE LA CARRERA -->
+      <section id="descripcion" class="section">
+        <h2 class="section-title">Descripción de la Carrera</h2>
+        <div class="card-descripcion">
+          <p class="objetivo-destacado">
+            <strong>Objetivo General:</strong> Preparar profesionales capaces de
+            analizar, diseñar, implementar y administrar sistemas de información
+            que optimicen los procesos empresariales y mejoren la toma de
+            decisiones mediante el uso de tecnología de la información.
+          </p>
+          <p>
+            La carrera de <strong>Ingeniería en Computación</strong> de la
+            Universidad Nacional Héroes de San José de las Mulas (UNHSJM), La
+            Dirección de Ciencias Básicas y Tecnología (DCByT), forma
+            profesionales integrales con sólidas bases científicas, matemáticas
+            y tecnológicas, capaces de desarrollar y gestionar soluciones
+            computacionales complejas tanto a nivel de software como de
+            arquitectura de hardware.
+          </p>
+          <p>
+            A lo largo de <strong>5 años (10 semestres)</strong>, nuestros
+            estudiantes adquieren competencias prácticas en ingeniería de
+            software, administración de redes, ciberseguridad, inteligencia
+            artificial y análisis de grandes volúmenes de datos para liderar la
+            transformación digital en el sector público y privado.
+          </p>
+        </div>
+      </section>
+
+      <!-- 3. ORGANIGRAMA DE LA UNIVERSIDAD -->
+      <section id="organigrama" class="section">
+        <h2 class="section-title">Organigrama Institucional (DCByT)</h2>
+        <div class="org-container">
+          <!-- Nivel 1 -->
+          <div class="org-level">
+            <div class="org-box nivel-1">
+              <strong>Arlen Gutiérrez</strong>
+              <span
+                >Directora General del Área de Ciencias Básicas y Tecnología
+                (DCByT)</span
+              >
+            </div>
+          </div>
+          <div class="line-vertical"></div>
+
+          <!-- Nivel 2 -->
+          <div class="org-level">
+            <div class="org-box nivel-2">
+              <strong>Lic. Xiomara Cantillano</strong>
+              <span>Secretaria Académica DCByT</span>
+            </div>
+          </div>
+          <div class="line-vertical"></div>
+          <div class="line-horizontal"></div>
+
+          <!-- Nivel 3 -->
+          <div class="org-level nivel-3-grid">
+            <div class="org-box nivel-3">
+              <strong>MSc. Sonia Guillén</strong>
+              <span>Directora de la Carrera: Ingeniería en Computación</span>
+            </div>
+            <div class="org-box nivel-3">
+              <strong>Lic. Gladys Aguilar</strong>
+              <span>Directora de la Carrera: Ingeniería en Sistemas</span>
+            </div>
+            <div class="org-box nivel-3">
+              <strong>Ing. Óscar Ruiz</strong>
+              <span>Director de la Carrera: Ingeniería en Biotecnología</span>
+            </div>
+            <div class="org-box nivel-3">
+              <strong>Ing. Aldo Pitty</strong>
+              <span>Encargado de Laboratorios</span>
+            </div>
+          </div>
+          <div class="line-vertical"></div>
+
+          <!-- Nivel 4 -->
+          <div class="org-level">
+            <div class="org-box nivel-4">
+              <strong>Cuerpo Docente de la DCByT</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. MODALIDADES, DURACIÓN Y HORARIOS -->
+      <section id="modalidades" class="section">
+        <h2 class="section-title">Modalidades, Duración y Horarios</h2>
+        <div class="grid-2">
+          <div class="card modalidad-card">
+            <div class="modalidad-header">
+              <span class="icono-mod">&#128197;</span>
+              <h3>Turno Diurno (Regular)</h3>
+            </div>
+            <ul>
+              <li>
+                <strong>Duración:</strong>5 años (10 semestres académicos).
+              </li>
+              <li><strong>Días de clase:</strong> Lunes a Viernes.</li>
+              <li><strong>Horario:</strong> 7:00 a.m. – 5:30 p.m.</li>
+              <li>
+                <strong>Modalidad:</strong> Clase Presencial con prácticas en
+                los laboratorios de computación
+              </li>
+            </ul>
+          </div>
+          <div class="card modalidad-card">
+            <div class="modalidad-header">
+              <span class="icono-mod">&#128337;</span>
+              <h3>Turno Dominical (Por Encuentros)</h3>
+            </div>
+            <ul>
+              <li><strong>Duración:</strong> 5 años</li>
+              <li><strong>Días de clase:</strong> Domingos.</li>
+              <li><strong>Horario:</strong> 7:30 a.m. – 4:30 p.m.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. PERFILES DE SALIDA -->
+      <section id="perfiles" class="section">
+        <h2 class="section-title">Perfil del Egresado</h2>
+        <div class="grid-3">
+          <div class="card perfil-item">
+            <h3>Análisis y Diseño de Sistemas</h3>
+            <p>
+              Habilidad para el análisis y diseño de sistemas de información
+              orientados a optimizar procesos empresariales.
+            </p>
+          </div>
+          <div class="card perfil-item">
+            <h3>Gestión de Proyectos de TI</h3>
+            <p>
+              Conocimientos sólidos en gestión, formulación y evaluación de
+              proyectos de tecnología de la información.
+            </p>
+          </div>
+          <div class="card perfil-item">
+            <h3>Infraestructura Tecnológica</h3>
+            <p>
+              Capacidad para implementar, administrar y mantener
+              infraestructuras tecnológicas, redes y servidores.
+            </p>
+          </div>
+          <div class="card perfil-item">
+            <h3>Ciberseguridad y Protección</h3>
+            <p>
+              Competencias especializadas en ciberseguridad, auditoría y
+              protección integral de datos organizacionales.
+            </p>
+          </div>
+          <div class="card perfil-item">
+            <h3>Big Data y Análisis Predictivo</h3>
+            <p>
+              Habilidad para trabajar con grandes volúmenes de datos y realizar
+              análisis predictivo para la toma de decisiones.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. ÁREAS DE ESTUDIO -->
+      <section id="areas" class="section">
+        <h2 class="section-title">Áreas de Estudio</h2>
+        <div class="grid-5">
+          <div class="area-badge">
+            <span class="area-num">01</span>
+            <h4>Análisis y Diseño de Sistemas de Información</h4>
+          </div>
+          <div class="area-badge">
+            <span class="area-num">02</span>
+            <h4>Gestión de Proyectos de TI</h4>
+          </div>
+          <div class="area-badge">
+            <span class="area-num">03</span>
+            <h4>Infraestructura de Tecnologías de la Información</h4>
+          </div>
+          <div class="area-badge">
+            <span class="area-num">04</span>
+            <h4>Seguridad de la Información</h4>
+          </div>
+          <div class="area-badge">
+            <span class="area-num">05</span>
+            <h4>Análisis de Datos y Big Data</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. PLAN DE ESTUDIO REAL POR MODALIDAD -->
+      <section id="plan" class="section">
+        <h2 class="section-title">Plan de Estudio (Plan 2018)</h2>
+        <p class="subtitulo-plan">
+          Dirección de Ciencias Básicas y Tecnología — Carrera: Ingeniería en
+          Computación
+        </p>
+
+        <div class="tabs">
+          <button
+            class="tab-btn active"
+            onclick="mostrarPlan('matutino', this)"
+          >
+            Modalidad Matutina
+          </button>
+          <button class="tab-btn" onclick="mostrarPlan('dominical', this)">
+            Modalidad Dominical
+          </button>
+        </div>
+
+        <!-- Tabla Matutino -->
+        <div id="plan-matutino" class="plan-content active">
+          <table class="tabla-plan">
+            <thead>
+              <tr>
+                <th>Año</th>
+                <th>Asignatura</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>I AÑO</strong></td>
+                <td>
+                  <strong>I Semestre:</strong>
+                  <ul class="lista-materias">
+                    <li>Matemática Introductoria</li>
+                    <li>Técnicas y Estrategias de Comunicación</li>
+                    <li>Filosofía</li>
+                    <li>Geometría Analítica</li>
+                    <li>Historia de Nicaragua</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>II Semestre:</strong>
+                  <ul class="lista-materias">
+                    <li>Algoritmos</li>
+                    <li>Composición y Redacción Técnica</li>
+                    <li>Género en la Vida Cotidiana</li>
+                    <li>Cálculo I</li>
+                    <li>Estadística (Descriptiva e Inferencial)</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>II AÑO</strong></td>
+                <td>
+                  <strong>III Semestre:</strong>
+                  <ul class="lista-materias">
+                    <li>Programación</li>
+                    <li>Estructuras Discretas</li>
+                    <li>Física I</li>
+                    <li>Cálculo II</li>
+                    <li>Libre I</li>
+                    <li>Álgebra Lineal para Computación</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>IV Semestre:</strong>
+                  <ul class="lista-materias">
+                    <li>Estructura de Datos</li>
+                    <li>Bases de Datos I</li>
+                    <li>Física II</li>
+                    <li>Cálculo III</li>
+                    <li>Métodos y Técnicas de Investigación</li>
+                    <li>Análisis Numéricos para Ingenieros</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>III AÑO</strong></td>
+                <td>
+                  <strong>V Semestre:</strong>
+                  <ul class="lista-materias">
+                    <li>Programación Orientada a Objetos</li>
+                    <li>Bases de Datos II</li>
+                    <li>Circuitos Eléctricos</li>
+                    <li>Metodología de la Investigación</li>
+                    <li>Prácticas de Familiarización y Profesionales I</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>VI Semestre:</strong>
+                  <ul class="lista-materias">
+                    <li>Ingeniería de Requerimientos</li>
+                    <li>Gráfica Asistida por Computadora</li>
+                    <li>Sistemas Digitales</li>
+                    <li>Simulación por Computadoras</li>
+                    <li>Optativa I</li>
+                    <li>Prácticas de Familiarización y Profesionales II</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>IV AÑO</strong></td>
+                <td>
+                  <strong>VII Semestre:</strong>
+                  <ul class="lista-materias">
+                    <li>Análisis y Diseño</li>
+                    <li>Sistemas Operativos</li>
+                    <li>Arquitectura de Computadoras I</li>
+                    <li>Cultura de Paz</li>
+                    <li>Lenguajes, Compiladores e Intérpretes</li>
+                    <li>Prácticas de Familiarización y Profesionales III</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>VIII Semestre:</strong>
+                  <ul class="lista-materias">
+                    <li>Ingeniería del Software I</li>
+                    <li>Diseño Asistido por Computadoras</li>
+                    <li>Arquitectura de Computadoras II</li>
+                    <li>Análisis Algorítmico Avanzado</li>
+                    <li>Redes de Computadoras</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>V AÑO</strong></td>
+                <td>
+                  <strong>IX Semestre:</strong>
+                  <ul class="lista-materias">
+                    <li>Ingeniería del Software II</li>
+                    <li>Programación Móvil</li>
+                    <li>Libre II (Ingeniería Económica)</li>
+                    <li>Sistemas Distribuidos</li>
+                    <li>Sistemas de Control</li>
+                    <li>Optativa II (Telemática)</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>X Semestre:</strong>
+                  <ul class="lista-materias">
+                    <li>
+                      Formulación y Evaluación de Proyectos Computacionales
+                    </li>
+                    <li>Programación Web</li>
+                    <li>Inteligencia Artificial</li>
+                    <li>Robótica</li>
+                    <li>
+                      Libre III(Tendencias Tecnológicas y Tecnología Emergente)
+                    </li>
+                    <li>Formas de Culminación de Estudios</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Tabla Dominical -->
+        <div id="plan-dominical" class="plan-content">
+          <table class="tabla-plan">
+            <thead>
+              <tr>
+                <th>Año</th>
+                <th>Bloque Dominical A</th>
+                <th>Bloque Dominical B</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>I AÑO</strong></td>
+                <td>
+                  <strong>I Semestre (Encuentros):</strong>
+                  <ul class="lista-materias">
+                    <li>Matemática Introductoria</li>
+                    <li>Técnicas y Estrategias de Comunicación</li>
+                    <li>Filosofía</li>
+                    <li>Geometría Analítica</li>
+                    <li>Historia de Nicaragua</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>II Semestre (Encuentros):</strong>
+                  <ul class="lista-materias">
+                    <li>Algoritmos</li>
+                    <li>Composición y Redacción Técnica</li>
+                    <li>Género en la Vida Cotidiana</li>
+                    <li>Cálculo I</li>
+                    <li>Estadística (Descriptiva e Inferencial)</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>II AÑO</strong></td>
+                <td>
+                  <strong>III Semestre (Encuentros):</strong>
+                  <ul class="lista-materias">
+                    <li>Programación</li>
+                    <li>Estructuras Discretas</li>
+                    <li>Física I</li>
+                    <li>Cálculo II</li>
+                    <li>Libre I</li>
+                    <li>Álgebra Lineal para Computación</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>IV Semestre (Encuentros):</strong>
+                  <ul class="lista-materias">
+                    <li>Estructura de Datos</li>
+                    <li>Bases de Datos I</li>
+                    <li>Física II</li>
+                    <li>Cálculo III</li>
+                    <li>Métodos y Técnicas de Investigación</li>
+                    <li>Análisis Numéricos para Ingenieros</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>III AÑO</strong></td>
+                <td>
+                  <strong>V Semestre (Encuentros):</strong>
+                  <ul class="lista-materias">
+                    <li>Programación Orientada a Objetos</li>
+                    <li>Bases de Datos II</li>
+                    <li>Circuitos Eléctricos</li>
+                    <li>Metodología de la Investigación</li>
+                    <li>Prácticas de Familiarización y Profesionales I</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>VI Semestre (Encuentros):</strong>
+                  <ul class="lista-materias">
+                    <li>Ingeniería de Requerimientos</li>
+                    <li>Gráfica Asistida por Computadora</li>
+                    <li>Sistemas Digitales</li>
+                    <li>Simulación por Computadoras</li>
+                    <li>Optativa I</li>
+                    <li>Prácticas de Familiarización y Profesionales II</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>IV AÑO</strong></td>
+                <td>
+                  <strong>VII Semestre (Encuentros):</strong>
+                  <ul class="lista-materias">
+                    <li>Análisis y Diseño</li>
+                    <li>Sistemas Operativos</li>
+                    <li>Arquitectura de Computadoras I</li>
+                    <li>Cultura de Paz</li>
+                    <li>Lenguajes, Compiladores e Intérpretes</li>
+                    <li>Prácticas de Familiarización y Profesionales III</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>VIII Semestre (Encuentros):</strong>
+                  <ul class="lista-materias">
+                    <li>Ingeniería del Software I</li>
+                    <li>Diseño Asistido por Computadoras</li>
+                    <li>Arquitectura de Computadoras II</li>
+                    <li>Análisis Algorítmico Avanzado</li>
+                    <li>Redes de Computadoras</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>V AÑO</strong></td>
+                <td>
+                  <strong>IX Semestre (Encuentros):</strong>
+                  <ul class="lista-materias">
+                    <li>Ingeniería del Software II</li>
+                    <li>Programación Móvil</li>
+                    <li>Libre II (Ingeniería Económica)</li>
+                    <li>Sistemas Distribuidos</li>
+                    <li>Sistemas de Control</li>
+                    <li>Optativa II (Telemática)</li>
+                  </ul>
+                </td>
+                <td>
+                  <strong>X Semestre (Encuentros):</strong>
+                  <ul class="lista-materias">
+                    <li>
+                      Formulación y Evaluación de Proyectos Computacionales
+                    </li>
+                    <li>Programación Web</li>
+                    <li>Inteligencia Artificial</li>
+                    <li>Robótica</li>
+                    <li>
+                      Libre III (Tendencias Tecnológicas y Tecnología Emergente)
+                    </li>
+                    <li>Formas de Culminación de Estudios</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 9. RESEÑAS -->
+      <section id="resenas" class="section">
+        <h2 class="section-title">Reseñas de Estudiantes y Egresados</h2>
+        <div class="grid-3">
+          <div class="card review-card">
+            <p class="stars">★★★★★</p>
+            <p>
+              "Las prácticas de familiarización y profesionales desde tercer año
+              en la UNHSJM me abrieron las puertas en el área de desarrollo de
+              software y bases de datos."
+            </p>
+            <h4>— Carlos Mendoza, Egresado UNHSJM</h4>
+          </div>
+          <div class="card review-card">
+            <p class="stars">★★★★★</p>
+            <p>
+              "El turno dominical me permite trabajar entre semana y estudiar
+              con un plan actualizado que incluye programación móvil, web e
+              inteligencia artificial."
+            </p>
+            <h4>— María Fernanda López, Estudiante IV Año</h4>
+          </div>
+          <div class="card review-card">
+            <p class="stars">★★★★★</p>
+            <p>
+              "Excelente nivel académico en la DCByT. La formación abarca desde
+              circuitos eléctricos y arquitectura de computadoras hasta redes y
+              robótica."
+            </p>
+            <h4>— Víctor Leiva, Ingeniero en Computación</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10. FORMULARIO DE COMENTARIOS -->
+      <section id="contacto" class="section">
+        <h2 class="section-title">Formulario de Comentarios y Consultas</h2>
+        <form class="form-comentarios" onsubmit="enviarComentario(event)">
+          <div class="form-group">
+            <label for="nombre">Nombre completo:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ej. Ana Martínez"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo electrónico:</label>
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              placeholder="correo@ejemplo.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="modalidad-interes">Turno de interés:</label>
+            <select id="modalidad-interes" name="modalidad">
+              <option value="Matutino">Turno Matutino</option>
+              <option value="Dominical">Turno Dominical</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Comentario o consulta sobre la carrera:</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="4"
+              placeholder="Escribe tus dudas o comentarios aquí..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" id="btn-enviar" class="btn">
+            Enviar Comentario
+          </button>
+          <p id="mensaje-confirmacion" class="confirmacion"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="Logo_UNHSJM.png" alt="Logo UNHSJM" />
+        </div>
+        <p>
+          &copy; 2026 Universidad Nacional Héroes de San José de las Mulas
+          (UNHSJM)
+        </p>
+      </div>
+    </footer>
+
+    <!-- Cliente oficial de Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- Script para Carrusel, Pestañas y Conexión a BD Online -->
+    <script>
+      // 1. CONFIGURACIÓN DE CONEXIÓN A SUPABASE
+      const SUPABASE_URL = "https://yxwmaogpzdgkprcdgqsf.supabase.co";
+      const SUPABASE_ANON_KEY =
+        "sb_publishable_O4Ar1PwXxP1Qq4bjRdfMvw_icITsdqb";
+      const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+      // 2. LÓGICA DEL CARRUSEL
+      let slideActual = 0;
+      const slides = document.querySelectorAll(".carousel-slide");
+
+      function cambiarSlide(direccion) {
+        slides[slideActual].classList.remove("active");
+        slideActual = (slideActual + direccion + slides.length) % slides.length;
+        slides[slideActual].classList.add("active");
+      }
+      setInterval(() => cambiarSlide(1), 6500);
+
+      // 3. LÓGICA DE PESTAÑAS DEL PLAN DE ESTUDIO
+      function mostrarPlan(tipo, boton) {
+        document
+          .querySelectorAll(".plan-content")
+          .forEach((el) => el.classList.remove("active"));
+        document
+          .querySelectorAll(".tab-btn")
+          .forEach((btn) => btn.classList.remove("active"));
+        document.getElementById("plan-" + tipo).classList.add("active");
+        boton.classList.add("active");
+      }
+
+      // 4. ENVÍO DE COMENTARIOS A LA BASE DE DATOS ONLINE
+      async function enviarComentario(e) {
+        e.preventDefault();
+
+        const btnEnviar = document.getElementById("btn-enviar");
+        const confirmacion = document.getElementById("mensaje-confirmacion");
+
+        const nombre = document.getElementById("nombre").value.trim();
+        const correo = document.getElementById("correo").value.trim();
+        const modalidad = document.getElementById("modalidad-interes").value;
+        const mensaje = document.getElementById("mensaje").value.trim();
+
+        btnEnviar.disabled = true;
+        btnEnviar.textContent = "Guardando en la nube...";
+        confirmacion.style.color = "#1e40af";
+        confirmacion.textContent = "Enviando comentario...";
+
+        try {
+          const { error } = await db.from("comentarios").insert([
+            {
+              nombre: nombre,
+              correo: correo,
+              modalidad: modalidad,
+              mensaje: mensaje,
+            },
+          ]);
+
+          if (error) throw error;
+
+          confirmacion.style.color = "#15803d";
+          confirmacion.textContent = `¡Gracias ${nombre}! Tu comentario ha sido guardado en la base de datos de Ingeniería en Computación (UNHSJM).`;
+          e.target.reset();
+        } catch (err) {
+          console.error("Error al guardar comentario:", err.message);
+          confirmacion.style.color = "#dc2626";
+          confirmacion.textContent =
+            "Hubo un problema al conectar con la base de datos. Verifica tu clave API y las políticas RLS.";
+        } finally {
+          btnEnviar.disabled = false;
+          btnEnviar.textContent = "Enviar Comentario";
+        }
+      }
+    </script>
+  </body>
+</html>
